@@ -104,16 +104,22 @@ height:10em;
  width:10px;
  }
 
-footer{height:10rem;
+footer > nav{
+    margin-top:.5rem;
     width:100%;
-    font-size:2rem;
-    vertical-align:baseline;
-    background-color:grey;
-    }
-
-footer > nav > ul > li >{float:left;
 }
 
-#footer{float:right;
+footer > nav >ul {
+   
+    display:inline-block;
+    list-style:none;
+    float:right;
 }
 
+footer > nav > ul >li{
+    margin-right:10px;
+    padding:0;
+    width:calc(100%/6);
+    display:inline;
+    color:#ffffff;
+}

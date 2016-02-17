@@ -70,9 +70,9 @@ width:80%;
 background-color:orange;
 }
 
-div > img{float:left;}
+article > section >img{float:left;}
 
-div > p{float:right;}
+article > section >p{float:right;}
 
 #bottom_links{margin:0;
 padding:0;

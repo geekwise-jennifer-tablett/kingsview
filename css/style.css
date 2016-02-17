@@ -62,7 +62,9 @@ header > nav > ul >li{
 }
 
 h1{height:4em;
-    width:110em;
+    width:110em;text-align: center;
+ 
+    
     background-color:#bcb8af;
 }
 
@@ -97,12 +99,51 @@ height:10em;
  padding:0;
  width:calc(100%/4);
  display:inline-block;
+ float:left;
  color:ffffff;
  }
+
+#tele{margin:0;
+ padding:0;
+ width:calc(100%/4);
+ display:inline-block;
+ float:left;
+ color:ffffff;
+}
+
+#sub{margin:0;
+ padding:0;
+ width:calc(100%/4);
+ display:inline-block;
+ float:left;
+ color:ffffff;
+}
+
+#emp{margin:0;
+ padding:0;
+ width:calc(100%/4);
+ display:inline-block;
+ float:left;
+ color:ffffff;
+}
+
+#vid{margin:0;
+ padding:0;
+ width:calc(100%/4);
+ display:inline-block;
+ float:right;
+ color:ffffff;}
 
 .link_image{height:5px;
  width:10px;
  }
+
+footer{height:13rem;
+    width:100%;
+    font-size:1.5rem;display:inline-block;
+    vertical-align:baseline;
+    background-color:#5a6d95;
+}
 
 footer > nav{
     margin-top:.5rem;
@@ -113,13 +154,17 @@ footer > nav >ul {
    
     display:inline-block;
     list-style:none;
-    float:right;
+    float:left;
 }
 
-footer > nav > ul >li{
+ > nav > ul >li{
     margin-right:10px;
     padding:0;
-    width:calc(100%/6);
+    width:100%;
+    float:left;
     display:inline;
     color:#ffffff;
+}
+
+#social_img{float:right;
 }

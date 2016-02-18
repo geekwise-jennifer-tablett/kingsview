@@ -50,6 +50,7 @@ header > nav >ul {
    
     display:inline-block;
     list-style:none;
+    color:#ffffff;
     float:right;
 }
 
@@ -68,8 +69,8 @@ h1{height:4em;
     background-color:#bcb8af;
 }
 
-#slide_show{height:50em;
-  width:100em;
+#slide_show{height:342px;
+  width:950px;
     text-align: center;
 }
 
@@ -83,23 +84,44 @@ text-align:center;
 background-color:#fafafa;
 }
 
-box_1#{margin:0 auto;
-    height:10em;
-    width:calc(100%/2)
-    float:left;
-    }
 
-#box_2p{margin:0 auto;
-height:10em;
-    width:calc(100%/2)
-    float:right;
+/*
+div{margin:0 auto;
+padding:0;
+text-align: center;
+box-sizing: border-box;
+}
+*/
+
+#box_1{
+    margin:0 auto;
+    paddding:10px;
+    height:height:342px;
+    width:950px;
+    box-sizing: border-box;
+ }
+#center_img{
+    margin:0 auto;
+    height:75%;
+    width:25%;
+    box-sizing: border-box;
+    float: left; 
+}
+p{
+    margin: 0 auto;
+    width:50%;
+    height: 100%;
+    font-size: 15px;
 }
 
-#bottom_links{margin:0;
- padding:0;
+
+#bottom_links{margin:0 auto;
+ padding:5px;
+    height:50px;
  width:calc(100%/4);
  display:inline-block;
- float:left;
+text-align: center
+ box-sizing: border-box;
  color:ffffff;
  }
 

@@ -121,7 +121,7 @@ p{
  padding:0;
  height:50px;
  width:100%;
- display:inline-block;
+
 text-align: center
  box-sizing: border-box;
     align-items: center
@@ -164,33 +164,28 @@ text-align: center
  width:10px;
  }
 
-footer{height:13rem;
+footer{margin:0 auto;
+    border:10px:
+        height:13rem;
     width:100%;
-    font-size:1.5rem;display:inline-block;
+    font-size:1.5rem;
+    color: #ffffff;
     vertical-align:baseline;
+    display:inline-block;
     background-color:#5a6d95;
 }
 
-footer > nav{
-    margin-top:.5rem;
-    width:100%;
-}
 
-footer > nav >ul {
-   
-    display:inline-block;
-    list-style:none;
-    float:left;
-}
 
- > nav > ul >li{
-    margin-right:10px;
-    padding:0;
-    width:100%;
-    float:left;
-    display:inline;
+#copy{float:left;
+}
+#hippa{float:left;
+   color:#ffffff;
+}
+#dis{float:left;
     color:#ffffff;
 }
+
 
 #social_img{float:right;
 }

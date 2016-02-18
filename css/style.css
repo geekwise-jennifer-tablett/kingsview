@@ -164,11 +164,14 @@ text-align: center
  width:10px;
  }
 
-footer{height:13rem;
+footer{margin:0 auto;
+    border:10px:
+        height:13rem;
     width:100%;
     font-size:1.5rem;
     color: #ffffff;
     vertical-align:baseline;
+    display:inline-block;
     background-color:#5a6d95;
 }
 
